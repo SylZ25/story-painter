@@ -137,7 +137,7 @@ export const useStore = defineStore('main', {
     },
 
     async tryFetchLog(key: string, password: string) {
-      const resp = await axios.get(`${diceAPIBase}/load_data`, {
+      const resp = await axios.get('https://paint.sybildice.top/dice/api/load_data', {
         params: { key, password }
       })
       return resp.data
