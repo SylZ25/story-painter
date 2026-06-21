@@ -1,2 +1,5 @@
 name = "story-painter"
-pages_build_output_dir = "dist"
+compatibility_date = "2026-06-21"
+
+[assets]
+directory = "./dist"
